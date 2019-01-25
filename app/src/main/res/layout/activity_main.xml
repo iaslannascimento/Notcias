@@ -36,7 +36,25 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:text="25/01/2019"
-        tools:layout_editor_absoluteX="308dp"
-        tools:layout_editor_absoluteY="219dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Versos Íntimos  Vês?! Ninguém assistiu ao formidável Enterro de tua última quimera. Somente a Ingratidão – esta pantera - Foi tua companheira inseparável!  Acostuma-te a lama que te espera! O Homem que, nesta terra miserável, Mora entre feras, sente inevitável Necessidade de também ser fera  Toma um fósforo, acende teu cigarro! O beijo, amigo, é a véspera do escarro. A mão que afaga é a mesma que apedreja.  Se a alguém causa ainda pena a tua chaga Apedreja essa mão vil que te afaga. Escarra nessa boca de que beija!"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </android.support.constraint.ConstraintLayout>
